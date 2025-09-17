@@ -1,0 +1,17 @@
+# Folders to ignore
+frontend/node_modules/
+frontend/.env
+frontend/.DS_Store
+frontend/dist/
+frontend/build/
+frontend/.cache/
+frontend/.vscode/
+*.log
+*.tmp
+*.swp
+.env
+.DS_Store
+.cache/
+.vscode/
+dist/
+build/
