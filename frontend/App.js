@@ -13,6 +13,7 @@ import TodoEditor from "./src/components/TodoEditor";
 
 
 function App() {
+  console.log('[INFO] App.js 已被呼叫，React App 開始渲染');
   const [todos, setTodos] = useState([]);
   // 已移除 editingId 狀態（未使用）
   const [showEditor, setShowEditor] = useState(false);
