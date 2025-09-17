@@ -57,17 +57,17 @@ README.md               # 專案總說明
 ---
 
 # spec
-[spec.md](.\specs\001-todo-list\spec.md)
+[spec.md](./specs/001-todo-list/spec.md)
 
 # plan
-[plan.md](.\specs\001-todo-list\plan.md)
+[plan.md](./specs/001-todo-list/plan.md)
 
 # 任務狀態
-[tasks.md](.\specs\001-todo-list\tasks.md)
+[tasks.md](./specs/001-todo-list/tasks.md)
 
 # frontend
-[README.md](.\frontend\README.md)
+[README.md](./frontend/README.md)
 
 # prompts
-[prompts.md](.\prompts.md)
+[prompts.md](./prompts.md)
 
