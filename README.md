@@ -13,3 +13,9 @@ uvx --from git+https://github.com/github/spec-kit.git specify init <PROJECT_NAME
 # 任務狀態
 [tasks.md](.\specs\001-todo-list\tasks.md)
 
+# frontend
+[README.md](.\frontend\README.md)
+
+# prompts
+[prompts.md](.\prompts.md)
+
