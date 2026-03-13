@@ -42,8 +42,9 @@
 - [x] T011 [P] 實作 Todo 編輯/新增/刪除元件於 `frontend/src/components/TodoEditor.js`
 
 ## Phase 3.4: Integration
+ - [x] T012 [P] 整合 SQLite 與 TodoList 元件於 `frontend/src/App.js`
+ - [x] T013 [P] 設定 logging 與錯誤處理於 `frontend/src/App.js`
 
-## Phase 3.5: Polish
 ## Phase 3.5: Polish
    [x] T014 [P] 撰寫單元測試於 `frontend/tests/unit/`
    [x] T015 [P] 優化效能（大量待辦事項）於 `frontend/src/`
@@ -63,5 +64,5 @@ task run T003 T004 T005 T006 T007
 ## Dependency Notes
 - T001, T002 完成後才能進行 T003-T007
 - T004-T007 測試需先撰寫並失敗，才能進行 T008-T011 實作
-- T012, T013 依賴核心元件完成
+- T012, T013 為 Phase 3.4 整合階段
 - T014-T016 為最後優化與文件

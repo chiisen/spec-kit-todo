@@ -11,15 +11,25 @@ export default defineConfig([
       sourceType: "module",
       globals: {
         ...globals.browser,
+        ...globals.node,
         jest: true,
         describe: true,
         test: true,
         expect: true,
+        beforeAll: true,
+        afterAll: true,
+        beforeEach: true,
+        afterEach: true,
       },
     },
     plugins: {
       js,
       react: pluginReact,
+    },
+    settings: {
+      react: {
+        version: "19.1",
+      },
     },
     rules: {
       // 可根據需要調整
