@@ -35,6 +35,7 @@
     "vite": "^6.3.6"
   },
   "jest": {
-    "testEnvironment": "jsdom"
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": ["./tests/setup.js"]
   }
 }

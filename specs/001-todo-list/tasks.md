@@ -44,7 +44,6 @@
 ## Phase 3.4: Integration
 
 ## Phase 3.5: Polish
-## Phase 3.5: Polish
    [x] T014 [P] 撰寫單元測試於 `frontend/tests/unit/`
    [x] T015 [P] 優化效能（大量待辦事項）於 `frontend/src/`
    [x] T016 [P] 撰寫使用說明文件於 `frontend/README.md`

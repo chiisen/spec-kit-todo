@@ -15,9 +15,11 @@ describe('TodoItem', () => {
     expect(typeof todo.updatedAt).toBe('string');
   });
 
-  it('should update text and updatedAt', () => {
+  it('should update text and updatedAt', async () => {
     const todo = new TodoItem({ id: 2, text: 'Old', completed: false });
     const oldUpdatedAt = todo.updatedAt;
+    // 等待確保時間戳會不同
+    await new Promise(r => setTimeout(r, 10));
     todo.updateText('New');
     expect(todo.text).toBe('New');
     expect(todo.updatedAt).not.toBe(oldUpdatedAt);
