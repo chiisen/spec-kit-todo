@@ -22,3 +22,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Dependencies
 - 下載 sql-wasm.wasm 到本地以支援 Node.js 測試環境
+- 執行 npm audit fix 修復安全漏洞
+- 更新 baseline-browser-mapping 至最新版本
+
+### Documentation
+- 修正 tasks.md 缺失的 T012, T013 任務定義
+- 填補 Phase 3.4: Integration 任務列表
